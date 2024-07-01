@@ -1,2 +1,2 @@
 # Programming-in-Python
-My Journey of Personal Growth in Python
+My Journey of Personal Growth in Python.
