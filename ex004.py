@@ -1,0 +1,6 @@
+n = input('Digite algo: ')
+print(type(n))
+print(f'{n} É letra?', n.isalpha())
+print(f'{n} É numérico?', n.isnumeric())
+print(f'{n} É espaço?', n.isspace())
+print(f'{n} É capitalizado?', n.capitalize())
