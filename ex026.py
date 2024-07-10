@@ -1,0 +1,5 @@
+frase = 'Nessa aula, vamos aprender operações com String no Python.'.strip().upper()
+contador = frase.count('A')
+print(contador)
+print(frase.find('A'))
+print(frase.rfind('A'))
