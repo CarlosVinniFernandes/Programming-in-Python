@@ -1,0 +1,1 @@
+print('O Hexadecimal de %d é %08x'%(999,999))#08 é as casas decimais
