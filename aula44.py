@@ -1,1 +1,1 @@
-print('O Hexadecimal de %d é %08x'%(999,999))#08 é as casas decimais
+print('O Hexadecimal de %d eh %08x'%(999,999))#08 é as casas decimais
