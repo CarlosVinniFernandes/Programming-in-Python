@@ -1,0 +1,1 @@
+try: #-> se der erro, ele apenas vai pular, sem parar o programa
