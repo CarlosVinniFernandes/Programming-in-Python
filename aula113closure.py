@@ -14,10 +14,10 @@ def criar_saudacao(saudacao):
     return saudar
 
 
-falar_bom_dia = criar_saudacao('Bom dia')
-falar_boa_noite = criar_saudacao('Boa noite')
+falar_bomdia = criar_saudacao('Bom dia')
+falar_boanoite = criar_saudacao('Boa noite')
 
 for nome in ['Maria', 'Joao', 'Luiz']:
-    print(falar_bom_dia(nome))
+    print(falar_bomdia(nome))
     print()
-    print(falar_boa_noite(nome))
+    print(falar_boanoite(nome))
