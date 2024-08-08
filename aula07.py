@@ -7,4 +7,4 @@ di = n1 // n2
 e = n1 ** n2
 print('A soma é {}, \n o produto é {} e a divisão é {:.3f}'.format(s, m, d), end='')
 print('A divisão inteira {} e a potencia {}'.format(di,e))
-#\n quebra a frase e o end='' deixa unido
+#\n quebra a frase e o end='' deixa unido.
