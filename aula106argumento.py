@@ -1,7 +1,7 @@
 # x = 5
 # print(f'A soma de {x = }')
 def soma(x,y):
-    #definicao
+    #definicao.
     print(x+y)
 x = int(input('coloca ai'))
 y = int(input('coloca ai mano'))
