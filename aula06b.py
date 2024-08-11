@@ -1,4 +1,4 @@
-n = input('Digite um algo:')
+n = input('Digite um algo: ')
 print(n.istitle())
 #(n.isnumeric())
 #n.isalpha
