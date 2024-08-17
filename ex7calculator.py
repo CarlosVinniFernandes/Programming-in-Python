@@ -1,4 +1,4 @@
-condicao = True
+vc nl condicao = True
 while condicao == True:
     n1 = float(input('Digite um numero:'))
     n2 = float(input('Digite um numero:'))
@@ -32,7 +32,7 @@ Digite um operador: [**]\n'''))
     elif operador == '*':
         op = n1 * n2
         print(f'Seu valor de {n1}*{n2} = {op}')
-        decisao = str(input('Deseja continuar?[S]im ou [N]ão: '))
+        decisao = str(input('Deseja continuar? [S]im ou [N]ão: '))
         if decisao.upper() == 'S':
             condicao = True
         else:
