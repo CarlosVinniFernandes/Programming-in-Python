@@ -13,7 +13,7 @@ def contar_palavras(lista_de_strings):
 
 
 # Teste do exercício
-lista_de_strings = [
+lista_de_strings =  [
     "o rato roeu a roupa do rei de roma",
     "o rei mandou prender o rato",
     "mas o rato escapou"
