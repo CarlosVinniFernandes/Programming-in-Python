@@ -3,6 +3,20 @@ def S(n):
         return 2
     elif n >= 2:
         return 2*S(n-1)
+
+def S2(n):
+    contador = 0
+    resultado = 1
+    
+    while(contador < n):
+        resultado *= 2
+        contador += 1
+    return resultado
+
+def S3(n):
+    return 2**n
     
 entrada = int(input("digite um inteiro"))
 print(f"resultado igual a: {S(entrada)}")
+print(f"resultado igual a: {S2(entrada)}")
+print(f"resultado igual a: {S3(entrada)}")
