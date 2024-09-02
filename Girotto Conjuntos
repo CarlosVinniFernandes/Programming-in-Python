@@ -1,0 +1,17 @@
+vogais = {'a','e','i','o','u'}
+X = {3,3,3,2,2,1}
+print(X)
+
+A = {'a', 'b', 'c'}
+B = {'d', 'e', 'e', 'c'}
+
+print(A.union(B))
+print(A.intersection(B))
+
+F = {'a','d','f','g'}
+G = {'b', 'd', 'e', 'g'}
+H = {'c', 'f', 'g', 'e'}
+
+print(F.intersection(G.union(H)))
+print(F.union(G).intersection(F.union(H)))
+
