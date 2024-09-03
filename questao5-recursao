@@ -1,0 +1,12 @@
+def Bacteria(t):
+    if t == 0:
+        return 50000
+    else:
+        return 3*Bacteria(t-1)
+        
+print(Bacteria(2))
+
+def Bacteria2(t):
+    return 50000*3**t
+
+print(Bacteria(2))
