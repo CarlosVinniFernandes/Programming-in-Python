@@ -10,3 +10,15 @@ def Bacteria2(t):
     return 50000*3**t
 
 print(Bacteria(2))
+
+def Bacteria3(t):
+    resultado = 50000
+    contador = 0
+    
+    while contador < t:
+        resultado *= 3
+        contador += 1
+    
+    return resultado
+        
+print(Bacteria3(2))
