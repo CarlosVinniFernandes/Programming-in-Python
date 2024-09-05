@@ -1,0 +1,20 @@
+import itertools as it
+S = {'p', 'q', 'r', 's', 't', 'u', 'v', 'w'}
+A = {'p', 'q', 'r', 's'}
+B = {'r', 't', 'v'}
+C = {'p', 's', 't', 'u'}
+
+print(f"B I C --> {B.intersection(C)}")
+print(f"A u C --> {B.union(C)}")
+print(f"C' --> {S-C}")
+print(f"A i B i C -- > {A.intersection(B.intersection(C))}")
+
+for a in A:
+    for b in B:
+        print(f"({a},{b}) ", end="")
+    
+print(" ")
+for p in it.product(A,B):
+    print(f"{p} ", end="")
+    
+print(f"(A u B) i C' --> {(A.union(B)).intersection(S-C)}")
