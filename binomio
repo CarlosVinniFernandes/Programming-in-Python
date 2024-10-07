@@ -1,0 +1,19 @@
+
+#(2a - 3)^5
+
+from math import comb
+
+resultado = "" 
+
+for i in range(6):
+    coeficiente = comb(5, i) * (2**(5 - i)) * ((-3)**i)  # Cálculo do coeficiente
+    if coeficiente > 0 and i > 0:  # Adiciona '+' para coeficientes positivos (exceto o primeiro)
+        resultado += '+'
+    resultado += str(coeficiente) + 'a^' + str(5 - i)  # Adiciona o termo à string
+    if i < 5:  # Não adicionar ' + ' após o último termo
+        resultado += ' + '
+
+# Remover o último espaço e o '+' extra
+resultado = resultado.strip(' +')
+
+print(resultado)
