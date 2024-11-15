@@ -1,0 +1,35 @@
+def Tabela(numero:int):
+    X = range(numero);
+    Y = range(numero);
+
+    inversas = list()
+
+    for x in X:
+        for y in Y:
+            #print(f"{(x*y)%numero}  ", end="")
+            if((x*y)%numero == 1):
+                inversas.append([x,y])
+        #print()
+
+    return inversas
+
+def MDC(a:int, b:int):
+    if(a%b == 0):
+        return b
+    else:
+        return MDC(b, a%b)
+
+def Inverso(numero:int):
+    X = range(1,n);
+    inversos = list()
+    for x in X:
+        if(MDC(numero,x) == 1):
+            inversos.append(x)
+    return inversos
+
+
+
+
+n = int(input("Digite um número: "))
+#print(Tabela(n))
+print(Inverso(n))
